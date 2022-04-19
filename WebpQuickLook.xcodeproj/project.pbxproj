@@ -15,14 +15,13 @@
 		237E364317A257280033EC8D /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 237E364217A257280033EC8D /* GenerateThumbnailForURL.c */; };
 		237E364517A257280033EC8D /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 237E364417A257280033EC8D /* GeneratePreviewForURL.c */; };
 		237E364717A257280033EC8D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 237E364617A257280033EC8D /* main.c */; };
-		23866DAD18A838C40009A7A8 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 23866DA718A838C40009A7A8 /* decode.h */; };
-		23866DAE18A838C40009A7A8 /* demux.h in Headers */ = {isa = PBXBuildFile; fileRef = 23866DA818A838C40009A7A8 /* demux.h */; };
-		23866DAF18A838C40009A7A8 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 23866DA918A838C40009A7A8 /* encode.h */; };
-		23866DB018A838C40009A7A8 /* mux.h in Headers */ = {isa = PBXBuildFile; fileRef = 23866DAA18A838C40009A7A8 /* mux.h */; };
-		23866DB118A838C40009A7A8 /* mux_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 23866DAB18A838C40009A7A8 /* mux_types.h */; };
-		23866DB218A838C40009A7A8 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 23866DAC18A838C40009A7A8 /* types.h */; };
-		EF468D502046047400DCBA9A /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF468D4C2046046200DCBA9A /* libwebp.a */; };
-		EF468D512046047700DCBA9A /* libwebpdemux.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF468D4D2046046200DCBA9A /* libwebpdemux.a */; };
+		BAB6C235280E7B610022A46C /* mux.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB6C228280E7B610022A46C /* mux.h */; };
+		BAB6C236280E7B610022A46C /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB6C229280E7B610022A46C /* types.h */; };
+		BAB6C237280E7B610022A46C /* demux.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB6C22A280E7B610022A46C /* demux.h */; };
+		BAB6C238280E7B610022A46C /* mux_types.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB6C22B280E7B610022A46C /* mux_types.h */; };
+		BAB6C239280E7B610022A46C /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB6C22C280E7B610022A46C /* encode.h */; };
+		BAB6C23A280E7B610022A46C /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB6C22D280E7B610022A46C /* decode.h */; };
+		BAB6C23F280E7B610022A46C /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB6C234280E7B610022A46C /* libwebp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,14 +37,13 @@
 		237E364617A257280033EC8D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		237E364817A257280033EC8D /* WebpQuickLook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebpQuickLook-Prefix.pch"; sourceTree = "<group>"; };
 		237E365D17A28C310033EC8D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		23866DA718A838C40009A7A8 /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
-		23866DA818A838C40009A7A8 /* demux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demux.h; sourceTree = "<group>"; };
-		23866DA918A838C40009A7A8 /* encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encode.h; sourceTree = "<group>"; };
-		23866DAA18A838C40009A7A8 /* mux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux.h; sourceTree = "<group>"; };
-		23866DAB18A838C40009A7A8 /* mux_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux_types.h; sourceTree = "<group>"; };
-		23866DAC18A838C40009A7A8 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
-		EF468D4C2046046200DCBA9A /* libwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebp.a; sourceTree = "<group>"; };
-		EF468D4D2046046200DCBA9A /* libwebpdemux.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebpdemux.a; sourceTree = "<group>"; };
+		BAB6C228280E7B610022A46C /* mux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux.h; sourceTree = "<group>"; };
+		BAB6C229280E7B610022A46C /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		BAB6C22A280E7B610022A46C /* demux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demux.h; sourceTree = "<group>"; };
+		BAB6C22B280E7B610022A46C /* mux_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux_types.h; sourceTree = "<group>"; };
+		BAB6C22C280E7B610022A46C /* encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encode.h; sourceTree = "<group>"; };
+		BAB6C22D280E7B610022A46C /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
+		BAB6C234280E7B610022A46C /* libwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebp.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF468D512046047700DCBA9A /* libwebpdemux.a in Frameworks */,
-				EF468D502046047400DCBA9A /* libwebp.a in Frameworks */,
 				237E363517A257280033EC8D /* QuickLook.framework in Frameworks */,
+				BAB6C23F280E7B610022A46C /* libwebp.a in Frameworks */,
 				237E363717A257280033EC8D /* ApplicationServices.framework in Frameworks */,
 				237E363917A257280033EC8D /* CoreServices.framework in Frameworks */,
 				237E363B17A257280033EC8D /* CoreFoundation.framework in Frameworks */,
@@ -97,9 +94,7 @@
 		237E363C17A257280033EC8D /* WebpQuickLook */ = {
 			isa = PBXGroup;
 			children = (
-				EF468D4C2046046200DCBA9A /* libwebp.a */,
-				EF468D4D2046046200DCBA9A /* libwebpdemux.a */,
-				23866DA618A838C40009A7A8 /* webp */,
+				BAB6C225280E7B610022A46C /* webp */,
 				237E364217A257280033EC8D /* GenerateThumbnailForURL.c */,
 				237E364417A257280033EC8D /* GeneratePreviewForURL.c */,
 				237E364617A257280033EC8D /* main.c */,
@@ -118,17 +113,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		23866DA618A838C40009A7A8 /* webp */ = {
+		BAB6C225280E7B610022A46C /* webp */ = {
 			isa = PBXGroup;
 			children = (
-				23866DA718A838C40009A7A8 /* decode.h */,
-				23866DA818A838C40009A7A8 /* demux.h */,
-				23866DA918A838C40009A7A8 /* encode.h */,
-				23866DAA18A838C40009A7A8 /* mux.h */,
-				23866DAB18A838C40009A7A8 /* mux_types.h */,
-				23866DAC18A838C40009A7A8 /* types.h */,
+				BAB6C226280E7B610022A46C /* include */,
+				BAB6C22E280E7B610022A46C /* lib */,
 			);
 			path = webp;
+			sourceTree = "<group>";
+		};
+		BAB6C226280E7B610022A46C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BAB6C227280E7B610022A46C /* webp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BAB6C227280E7B610022A46C /* webp */ = {
+			isa = PBXGroup;
+			children = (
+				BAB6C228280E7B610022A46C /* mux.h */,
+				BAB6C229280E7B610022A46C /* types.h */,
+				BAB6C22A280E7B610022A46C /* demux.h */,
+				BAB6C22B280E7B610022A46C /* mux_types.h */,
+				BAB6C22C280E7B610022A46C /* encode.h */,
+				BAB6C22D280E7B610022A46C /* decode.h */,
+			);
+			path = webp;
+			sourceTree = "<group>";
+		};
+		BAB6C22E280E7B610022A46C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BAB6C234280E7B610022A46C /* libwebp.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,12 +158,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23866DB218A838C40009A7A8 /* types.h in Headers */,
-				23866DAE18A838C40009A7A8 /* demux.h in Headers */,
-				23866DB018A838C40009A7A8 /* mux.h in Headers */,
-				23866DB118A838C40009A7A8 /* mux_types.h in Headers */,
-				23866DAD18A838C40009A7A8 /* decode.h in Headers */,
-				23866DAF18A838C40009A7A8 /* encode.h in Headers */,
+				BAB6C237280E7B610022A46C /* demux.h in Headers */,
+				BAB6C236280E7B610022A46C /* types.h in Headers */,
+				BAB6C23A280E7B610022A46C /* decode.h in Headers */,
+				BAB6C235280E7B610022A46C /* mux.h in Headers */,
+				BAB6C239280E7B610022A46C /* encode.h in Headers */,
+				BAB6C238280E7B610022A46C /* mux_types.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,12 +197,19 @@
 			attributes = {
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Emin Kura";
+				TargetAttributes = {
+					237E363017A257280033EC8D = {
+						DevelopmentTeam = J29VN6AP39;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 237E362A17A257280033EC8D /* Build configuration list for PBXProject "WebpQuickLook" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 237E362617A257280033EC8D;
@@ -321,7 +348,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -329,19 +355,24 @@
 		237E364C17A257280033EC8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J29VN6AP39;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebpQuickLook/WebpQuickLook-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/WebpQuickLook/webp/include";
 				INFOPLIST_FILE = "WebpQuickLook/WebpQuickLook-Info.plist";
 				INSTALL_PATH = /Library/QuickLook;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/WebpQuickLook",
-					"$(PROJECT_DIR)/WebpQuickLook",
+					"$(PROJECT_DIR)/WebpQuickLook/webp/lib",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eminkura.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = qlgenerator;
 			};
 			name = Debug;
@@ -349,19 +380,24 @@
 		237E364D17A257280033EC8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J29VN6AP39;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebpQuickLook/WebpQuickLook-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/WebpQuickLook/webp/include";
 				INFOPLIST_FILE = "WebpQuickLook/WebpQuickLook-Info.plist";
 				INSTALL_PATH = /Library/QuickLook;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/WebpQuickLook",
-					"$(PROJECT_DIR)/WebpQuickLook",
+					"$(PROJECT_DIR)/WebpQuickLook/webp/lib",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eminkura.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = qlgenerator;
 			};
 			name = Release;
